@@ -30,7 +30,7 @@ attr_accessor :name, :life_points
         end
     end
 
-class Humanplayer < Player
+class HumanPlayer < Player
 attr_accessor :weapon_level, :name, :life_points
 
         def initialize(name, life_points = 100, weapon_level = 1)
@@ -38,7 +38,7 @@ attr_accessor :weapon_level, :name, :life_points
             @weapon_level = weapon_level
             @name = name
             
-            super(name, life_points)
+            super(@name, life_points)
         end
 
         def show_state
@@ -46,7 +46,7 @@ attr_accessor :weapon_level, :name, :life_points
         end
 
          def compute_damage
-            return rand(1..6) * @weapon_level
+            rand(1..6) * @weapon_level
         end
 
         def search_weapon
