@@ -7,7 +7,7 @@ require_relative 'lib/player'
 
 player1 = Player.new("Josiane")
 player2 = Player.new("José")
-HumanPlayer = Player.new
+playerhuman = Player.new("Nora")
 
 puts "
 ------------------------------------------------

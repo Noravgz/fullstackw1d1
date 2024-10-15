@@ -30,7 +30,7 @@ attr_accessor :name, :life_points
         end
     end
 
-class HumanPlayer < Player
+class Humanplayer < Player
 attr_accessor :weapon_level, :name, :life_points
 
         def initialize(name, life_points = 100, weapon_level = 1)
