@@ -7,7 +7,7 @@ require_relative 'lib/player'
 
 player1 = Player.new("Josiane")
 player2 = Player.new("José")
-playerhuman = Humanplayer.new("User") 
+humanplayer = HumanPlayer.new("User") 
 
 
 
@@ -18,7 +18,7 @@ puts "
 |          Essaie de pas mourir LOSER !         |
 -------------------------------------------------"
 
-enemy = [José, Josiane]
+enemy = [player1, player2]
 
 while player1.life_points > 0 && player2.life_points > 0 && humanplayer.life_points > 0
 
@@ -26,7 +26,7 @@ while player1.life_points > 0 && player2.life_points > 0 && humanplayer.life_poi
     puts "Voici l'état de chaque joueur :"
     player2.show_state
     player1.show_state
-    Humanplayer.show_state
+    humanplayer.show_state
 
     puts ""
     puts "Passons à la phase d'attaque !"
