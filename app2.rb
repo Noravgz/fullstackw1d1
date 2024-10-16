@@ -13,7 +13,7 @@ humanplayer = HumanPlayer.new("User")
 
 puts "
 ------------------------------------------------
-|Bienvenue sur 'ILS VEULENT TOUS MA POO' !      |
+|    Bienvenue sur 'ILS VEULENT TOUS MA POO' !  |
 |Le but du jeu est d'être le dernier survivant !|
 |          Essaie de pas mourir LOSER !         |
 -------------------------------------------------"
